@@ -27,6 +27,7 @@ coverage
 *.sln
 *.sw?
 
-.env
+.env*
 test.http
 index.html
+.vercel

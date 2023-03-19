@@ -1,4 +1,7 @@
 {
+    "routes": [
+        { "src": "/(.*)", "dest": "/bin/www" }
+      ],
     "builds":[{
         "src":"/bin/www",
         "use":"@vercel/node"
